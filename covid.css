@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: aliceblue;
+    background-image: linear-gradient(rgba(43, 39, 39, 0.849), rgba(0, 0, 0, 0.712));
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
+}
+
+.manu {
+    padding: 1rem;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+}
+
+.manu>img {
+    width: 5%;
+}
+
+header {
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header>h1 {
+    line-height: 130%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 40%;
+    /* align-self: flex-start; */
+    font-size: 4.8rem;
+    color: aqua;
+}
+
+header>img {
+    /* align-self: flex-end; */
+    width: 40%;
+}
+
+.mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.mobile>h2 {
+    padding: 3rem 1rem 2rem 1rem;
+    color: rgb(255, 64, 30);
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.mobile>h3{
+    padding: 3rem 1rem 2rem 1rem;
+    color: rgb(0, 137, 250);
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+#india{
+    
+   color: yellow;
+   /* text-decoration: none; */
+   text-align: center;
+   
+}
+
+thead {
+    text-align: center;
+    font-size: 2rem;
+    color: aliceblue;
+    background: rgb(6, 99, 219);
+}
+
+thead>tr>th {
+    text-align: center;
+}
+
+tbody {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.safty-major {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.safty-major>h2 {
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+    line-height: 1;
+    color: rgb(238, 235, 238);
+    font-size: 3rem;
+}
+
+.item {
+    color: yellow;
+    display: flex;
+    width: 70%;
+    margin: 1rem;
+    border: 2px solid royalblue;
+    background-color: rgb(43, 33, 31);
+    justify-content: center;
+}
+
+.item>img {
+    width: 25%;
+}
+
+.item>p {
+    display: flex;
+    padding: 2rem;
+    align-self: center;
+    text-align: center;
+    line-height: 1;
+    color: thistle;
+    font-size: 2.5rem;
+}
+
+footer>p {
+    padding: 3rem 1rem 2rem 1rem;
+    line-height: 1;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 4rem;
+}
+
+
